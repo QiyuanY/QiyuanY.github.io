@@ -1,4 +1,4 @@
-baseURL = 'https://qiyuanyang.github.io/'
+baseURL = 'https://qijuany.github.io/'
 languageCode = 'zh-cn'
 title = '我的个人博客'
 theme = 'PaperMod'
@@ -17,7 +17,7 @@ Content = "欢迎来到我的个人博客。这里记录着我的技术学习、
 # social icons
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/qiyuanyang"
+url = "https://github.com/QiyuanY"
 
 [[params.socialIcons]]
 name = "email"
