@@ -30,7 +30,7 @@ title = '关于我'
 
 如果你对我的任何文章感兴趣，或者想要交流技术问题，欢迎通过以下方式联系我：
 
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [qiyuanyang](https://github.com/qiyuanyang)
+- Email: qiyuan.yang@example.com
 
 感谢你的访问！

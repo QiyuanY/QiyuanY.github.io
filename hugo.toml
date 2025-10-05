@@ -1,30 +1,40 @@
-baseURL = 'https://yourusername.github.io/'
+baseURL = 'https://qiyuanyang.github.io/'
 languageCode = 'zh-cn'
 title = '我的个人博客'
 theme = 'PaperMod'
 
 [params]
-author = "你的名字"
-description = "分享技术与生活"
-keywords = ["博客", "技术", "生活"]
+author = "Qiyuan Yang"
+description = "分享技术与生活的个人博客"
+keywords = ["技术", "生活", "学习", "编程"]
 env = "production"
 
-[params.profileMode]
-enabled = true # needs to be explicitly set
-title = "你好，我是你的名字"
-subtitle = "欢迎来到我的个人博客"
-imageUrl = "profile.jpg"
-imageTitle = "我的头像"
-imageWidth = 120
-imageHeight = 120
+# theme params
+[params.homeInfoParams]
+Title = "你好，我是 Qiyuan Yang"
+Content = "欢迎来到我的个人博客。这里记录着我的技术学习、项目经验和生活感悟。"
 
+# social icons
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/yourusername"
+url = "https://github.com/qiyuanyang"
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto:your.email@example.com"
+url = "mailto:qiyuan.yang@example.com"
+
+# analytics
+[params.analytics.google]
+SiteVerificationTag = ""
+
+[params.profileMode]
+enabled = true # needs to be explicitly set
+title = "你好，我是 Qiyuan Yang"
+subtitle = "欢迎来到我的个人博客"
+imageUrl = "profile.jpg"
+imageTitle = "Qiyuan Yang"
+imageWidth = 120
+imageHeight = 120
 
 [menu]
 [[menu.main]]
