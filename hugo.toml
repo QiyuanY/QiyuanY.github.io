@@ -1,0 +1,43 @@
+baseURL = 'https://yourusername.github.io/'
+languageCode = 'zh-cn'
+title = '我的个人博客'
+theme = 'PaperMod'
+
+[params]
+author = "你的名字"
+description = "分享技术与生活"
+keywords = ["博客", "技术", "生活"]
+env = "production"
+
+[params.profileMode]
+enabled = true # needs to be explicitly set
+title = "你好，我是你的名字"
+subtitle = "欢迎来到我的个人博客"
+imageUrl = "profile.jpg"
+imageTitle = "我的头像"
+imageWidth = 120
+imageHeight = 120
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yourusername"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:your.email@example.com"
+
+[menu]
+[[menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "文章"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "关于"
+url = "/about/"
+weight = 3
